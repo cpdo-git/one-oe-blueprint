@@ -25,7 +25,7 @@ Then, apply remove the conflicting compartment manually and proceed with the Sta
 While destroying your stack you will see the following error:
 
 ```
-Error: 409-Conflict, The Key Version ocid1.keyversion.oc1.eu-frankfurt-1.entkhimfaafr2.bcqlm2r2dxaac.abtheljsnbgjujm7nez7fci36zmeycpcby7tn47lyv3fixgyflla37k4scnq cannot be deleted because it is the current key version of the key
+Error: 409-Conflict, The Key Version ocid1.keyversion.oc1.eu-nhq-1.entkhimfaafr2.bcqlm2r2dxaac.abtheljsnbgjujm7nez7fci36zmeycpcby7tn47lyv3fixgyflla37k4scnq cannot be deleted because it is the current key version of the key
 
 Suggestion: The resource is in a conflicted state. Please retry again or contact support for help with service: Kms Key Version
 
@@ -33,7 +33,7 @@ Documentation: https://registry.terraform.io/providers/oracle/oci/latest/docs/re
 
 API Reference: https://docs.oracle.com/iaas/api/#/en/key/release/KeyVersion/ScheduleKeyVersionDeletion
 
-Request Target: POST https://entkhimfaafr2-management.kms.eu-frankfurt-1.oraclecloud.com/20180608/keys/ocid1.key.oc1.eu-frankfurt-1.entkhimfaafr2.abtheljs2ocww2ra4ypwcmizds3pummzt7ik2lesswfskznhoizs2dyld4aq/keyVersions/ocid1.keyversion.oc1.eu-frankfurt-1.entkhimfaafr2.bcqlm2r2dxaac.abtheljsnbgjujm7nez7fci36zmeycpcby7tn47lyv3fixgyflla37k4scnq/actions/scheduleDeletion
+Request Target: POST https://entkhimfaafr2-management.kms.eu-nhq-1.oraclecloud.com/20180608/keys/ocid1.key.oc1.eu-nhq-1.entkhimfaafr2.abtheljs2ocww2ra4ypwcmizds3pummzt7ik2lesswfskznhoizs2dyld4aq/keyVersions/ocid1.keyversion.oc1.eu-nhq-1.entkhimfaafr2.bcqlm2r2dxaac.abtheljsnbgjujm7nez7fci36zmeycpcby7tn47lyv3fixgyflla37k4scnq/actions/scheduleDeletion
 
 ```
 
